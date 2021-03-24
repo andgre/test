@@ -1,0 +1,13 @@
+---
+definitions:
+- { product: web_v2, suite: mysuite, include: default_step.yml }
+- { product: prod2, suite: mysuite2, include: default_step.yml }
+
+include_newlines_example: |
+            The new line charaters
+            will appear 
+
+ignore_newlines_example2: >
+            The new line character will 
+            be removed. Useful when editing 
+            lines

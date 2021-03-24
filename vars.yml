@@ -1,0 +1,15 @@
+---
+prodvars:
+  - instance_type: t2.micro
+  - image: ami-08962a4068733a2b6
+  - region: us-east-2
+  - group: default
+  - key_name: Mykey19012021-1
+  - vpc_subnet_id: subnet-9ec182d
+devvars:
+  - instance_type: t2.micro
+  - image: ami-042e8287309f5df03
+  - region: us-east-1
+  - group: default
+  - key_name: Mykey04032021-1
+  - vpc_subnet_id: subnet-702d4a51

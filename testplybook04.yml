@@ -1,0 +1,11 @@
+- hosts: localhost
+  gather_facts: False
+  vars_files: testvars.yml
+  tasks:
+  - name: Ansible varible multiple line Example
+    debug:
+      msg: "{{ include_newlines_example }}"
+
+  - name: Ansible variables multiline Example
+    debug:
+      msg: "{{ ignore_newlines_example2 }}"
